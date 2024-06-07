@@ -1,0 +1,81 @@
+/* First Mobile */
+    /* Primeiro Banner */
+        /* Imagens */
+        #primary-banner
+        {
+            color: var(--color-text-primary-mrpds);
+            background-image: 
+                linear-gradient(to bottom left, var(--color-bg-header-1-mrpds), var(--color-bg-header-2-mrpds));
+            overflow: hidden;
+            display: flexbox;
+        }
+
+        #primary-banner figure img
+        {
+            position: relative;
+            left: 50px;
+            --padding: 10px;
+            padding-top: var(--padding);
+            padding-bottom: var(--padding);
+            margin-bottom: 0px;
+        }
+
+        /* Textos */
+        #primary-banner h2
+        {
+            padding-left: 20px;
+            text-shadow: rgba(70, 70, 70, 0.243) 3px 3px 5px;
+            position: relative;
+            width: 100vw;
+            font-size: 1.4em;
+        }
+
+        #primary-banner h2 span.destaque
+        {
+            text-transform: uppercase;
+            font-weight: 800;
+            text-shadow: rgba(70, 70, 70, 0.563) 3px 3px 5px;
+            font-size: 2em;
+        }
+    
+/* Segundo Banner */
+    /* Imagem */
+        #secondary-banner
+        {
+            position: relative;
+            top: -40px;
+            z-index: 1;
+        }   
+        
+        #secondary-banner figure img
+        {
+            border-radius: 50px;
+        }
+
+    /* Textos */
+        #secondary-banner figure figcaption p
+        {
+            position: relative;
+            top: -200px;
+        }
+
+        #secondary-banner figure figcaption p span.destaque
+        {
+            text-transform: uppercase;
+        }
+    
+/* Terceiro Banner */
+    /* Imagem */
+        #third-banner figure img
+        {
+            position: relative;
+            top: -220px;
+            z-index: 0;
+        }
+
+/* Quarto Banner */
+    /* Imagem */
+        #fourth-banner figure img
+        {
+            
+        }

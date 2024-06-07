@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root
+{
+  /* header com degradê */
+  --color-bg-header-1-mrpds: #5332de !important;
+  --color-bg-header-2-mrpds: #3495ff !important;
+
+  /* herobanner com degradê */
+  --color-bg-header-1-mrpds: #feaa60 !important;
+  --color-bg-header-2-mrpds: #fea95f !important;
+
+  --color-primary-mrpds: #1a4d8b !important;
+  --color-text-primary-mrpds: #ffffff !important;
+  --strong-color-primary-mrpds: #12355f !important;
+  --strong-text-color-primary-mrpds: #ffffff !important;
+  --strong-2-color-primary-mrpds: #071729 !important;
+  --strong-2-color-text-primary-mrpds: #ffffff !important;
+
+  --color-secondary-mrpds:#ffffff !important;
+  --color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
+  --strong-color-secondary-mrpds:#d8d7d7 !important;
+  --strong-color-text-secondary-mrpds:var(--color-primary-mrpds) !important;
+  --strong-2-color-secondary-mrpds:#aaaaaa !important;
+  --strong-2-color-text-secondary-mrpds: var(--color-primary-mrpds) !important;
+
+  --color-btn-primary-mrpds: #6bb70b;
+  --color-btn-primary-focus-mrpds: #4d8806;
+  --color-btn-text-primary-mrpds: #ffffff;
+
+  --color-btn-secondary-mrpds: #6bb70b;
+  --color-btn-secondary-focus-mrpds: #4d8806;
+  --color-btn-text-secondary-mrpds: #ffffff;
+}
+
+/* Não mexer */
+.perfil-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Cor de fundo para visualização do círculo */
+}
+
+.perfil-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+h1
+{
+  line-height: 0;
+}
+
+.bg-primary-mrpds
+{
+  background-color: var(--color-primary-mrpds);
+  color: var(--color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-strong-primary-mrpds
+{
+  background-color: var(--strong-color-primary-mrpds);
+  color: var(--strong-color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-strong-2-primary-mrpds
+{
+  background-color: var(--strong-2-color-primary-mrpds);
+  color: var(--strong-2-color-text-primary-mrpds);
+  border: 0;
+}
+
+.bg-secondary-mrpds
+{
+  background-color: var(--color-secondary-mrpds);
+  color: var(--color-text-secondary-mrpds);
+  border: 0;
+}
+
+.bg-strong-secondary-mrpds
+{
+  background-color: var(--strong-color-secondary-mrpds);
+  color: var(--strong-color-text-secondary-mrpds);
+  border: 0;
+}
+
+.bg-strong-2-secondary-mrpds
+{
+  background-color: var(--strong-2-color-secondary-mrpds);
+  color: var(--strong-2-color-text-secondary-mrpds);
+  border: 0;
+}
+
+/* BTN Primary */
+.btn-color-primary-mrpds
+{
+  background-color: var(--color-btn-primary-mrpds);
+  color: var(--color-btn-text-primary-mrpds);
+  transition: background-color .5s;
+  border: 0;
+}
+
+.btn-color-primary-mrpds:hover, 
+.btn-color-primary-mrpds:focus
+{
+  background-color: var(--color-btn-primary-focus-mrpds);
+  color: var(--color-btn-text-primary-mrpds);
+  border: 0;
+}
+
+/* BTN Secondary */
+.btn-color-secondary-mrpds
+{
+  background-color: var(--color-btn-secondary-mrpds);
+  color: var(--color-btn-text-secondary-mrpds);
+  transition: background-color .5s;
+  border: 0;
+}
+
+.btn-color-secondary-mrpds:hover, 
+.btn-color-secondary-mrpds:focus
+{
+  background-color: var(--color-btn-secondary-focus-mrpds);
+  color: var(--color-btn-text-secondary-mrpds);
+  border: 0;
+}
+
+/* Fim do não mexer*/
+
+.btn
+{
+  max-width: 200px;
+  border-radius: 20px;
+}
+
+figcaption
+{
+  padding: auto 0 !important;
+}
