@@ -1,5 +1,5 @@
 // Variável de controle: ajuste para true ou false conforme necessário
-var adjustLayout = true;
+var adjustLayout = false;
 
 /*--  header --------------------------------------------------------------------------------------
 ----- Tradução: Cabeçalho - Área no topo da página onde geralmente fica a logo e a navegação.
@@ -96,7 +96,7 @@ function calcularAlturaTotal(content) {
     // Define o padding-top do primeiro H1 com a altura obtida
     var firstH1 = document.querySelector('h1');
     if (firstH1) {
-        firstH1.style.paddingTop = totalHeight-40 + 'px';
+        firstH1.style.paddingTop = totalHeight-50 + 'px';
         console.log('Ajuste de layout: padding-top de ' + totalHeight + 'px no primeiro H1');
     }
 }

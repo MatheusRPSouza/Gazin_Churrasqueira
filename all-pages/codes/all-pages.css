@@ -12,8 +12,8 @@
   --color-bg-header-2-mrpds: #3495ff !important;
 
   /* herobanner com degradê */
-  --color-bg-header-1-mrpds: #feaa60 !important;
-  --color-bg-header-2-mrpds: #fea95f !important;
+  --color-bg-herobanner-1-mrpds: #feaa60 !important;
+  --color-bg-herobanner-2-mrpds: #fea95f !important;
 
   --color-primary-mrpds: #1a4d8b !important;
   --color-text-primary-mrpds: #ffffff !important;
@@ -39,6 +39,12 @@
 }
 
 /* Não mexer */
+
+h1.invisible
+{
+  margin-top: -10px;
+}
+
 .perfil-img {
   width: 100px;
   height: 100px;
@@ -143,10 +149,19 @@ h1
 .btn
 {
   max-width: 200px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 figcaption
 {
   padding: auto 0 !important;
+}
+
+/* navbar */
+#navbar, .navbar
+{
+  background-image: 
+  linear-gradient(to bottom left, var(--color-bg-header-1-mrpds), var( --color-bg-header-2-mrpds));
+  min-height: 50px;
+  color: white;
 }
