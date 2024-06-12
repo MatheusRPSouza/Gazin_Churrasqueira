@@ -1,6 +1,12 @@
 <!doctype html>
 <!-- Nota -----------------------------------------------------------------------------------------
-    Eu, Matheus R P Souza, escrevi este código. Procurei organiza-lo, e, assim ficou.
+    Código Escrito por Matheus R P Souza
+    Bibliotecas utilizadas: Bootstrap 5.3.3, Biblioteca Pessoal
+    Este código foi criado em 12/06/2024 e sua última modificação: 12/06/2024
+
+    Nota:
+    Esta página foi produzida para demonstração do meu atual conhecimento sobre Front-end. Não
+    tem valor real, embora o produto seja real. A página leva para a página oficial da Gazin.
 -------------------------------------------------------------------------------------------------->
 <html lang="pt-br">
 <head>
@@ -9,8 +15,8 @@
     <title>Churrasqueira Elétrica Britânia Gourmet Grelha em Aço Inox</title> <!-- Recomendado não passar de 40 caracteres e não ser genérico. -->
     <!-- index - Disponível apenas para a página atual -->
     <meta name="title" content="Churrasqueira Elétrica Britânia Gourmet Grelha em Aço Inox" />
-    <meta name="description" content="Descrição da página otimizado para SEO, PPC e provavelmente visível nos resultados das pesquisas. Deve ter mais ou menos até 150 caracteres." />
-    <meta name="keywords" content="palavras, chaves, separadas, por, virgula" />
+    <meta name="description" content="A Churrasqueira Elétrica Britânia Gourmet Grelha em Aço Inox é a melhor para o seu ambiente de lazer e familiar. Proporcionando além de uma experiência saborosa, uma fácil limpeza." />
+    <meta name="keywords" content="churrasqueira, inox, Britânia" />
     <meta name="robots" content="follow, index" />
     <meta name="googlebot" content="index, follow" /> <!-- Específica a página ao GoogleBOT -->
 
@@ -30,77 +36,209 @@
     <script src="all-pages/library/bootstrap-5.3.3/dist/js/bootstrap.js" defer></script>
     <link rel="stylesheet" href="all-pages/library/bootstrap-5.3.3/dist/css/bootstrap.css">
     <link rel="stylesheet" href="all-pages/codes/all-pages.css">
+    <link rel="stylesheet" href="all-pages/codes/normalize.css">
 
     <!-- index - Disponível apenas para a página atual -->
     <link rel="stylesheet" href="index/codes/index.css">
-    <link rel="canonical" href="http://****ALTERAR****.com">
+    <link rel="canonical" href="http://churrasqueira.mrpds.shop">
 </head>
-<body class="">
-<h1 class="invisible">Churrasqueira Elétrica Britânia Gourmet Grelha em Aço Inox 1200W BCG1</h1>
-<main>
-    <section id="primary-banner" class="d-flex align-items-center justify-content-center">
-        <h2 class="font-roboto">O <strong>São João</strong> está chegando e <span class="d-block">você merece a festa</span> <span class="d-block destaque">perfeita</span></h2>
-        <figure>
-            <img class="img-fluid" 
-            src="index/medias/Churrasqueira fundo retangular branco.png" 
-            alt="Churrasqueira Elétrica Britânia vista de frente, com controle de temperatura."
-            title="">
-        </figure>
+<body class="container-fluid"> <!-- Para remover as 'margens', só tirar o padding (p-0) -->
+
+    <!-- Divisão 1: Primeira imagem de apresentação. -->
+    <section
+        id="banner-1"
+        class="row d-flex flex-row align-items-center pb-5 pt-2 pt-sm-3">
+
+        <h1 
+            class="col-12 col-sm-6 text-center text-sm-start py-2 ps-4">
+            
+            O 
+            <strong 
+                class="text-uppercase">
+                
+                São João
+    
+            </strong> 
+            
+            está chegando e você merece a festa 
+            
+            <strong 
+                id="destaque"
+                class="text-uppercase">
+                
+                perfeita
+
+            </strong>
+    
+        </h1>
+    
+        <img 
+            class="col-12 col-sm-6 py-2 pe-sm-0"
+            src="index/medias/Churrasqueira - Fundo Branco.png" 
+            alt=""
+            title="" />
+
     </section>
 
-    <section id="secondary-banner" class="d-flex">
-        <figure>
-            <img class="img-fluid" 
-            src="index/medias/Churrasqueira com carne de fundo.png" 
-            alt=""
-            title="">
-            <figcaption >
-                <p class="pt-5 px-3">Seja <span class="destaque"><strong>a sensação</strong></span> do churrasco de São João com a <span class="destaque"><strong>Churrasqueira Elétrica Britânia Gourmet!</strong></span> Grelha em aço inox, 1200W.</p>
-            </figcaption>
-        </figure>
+    <!-- Divisão 2: Churrasqueira, carne ao fundo e texto na lateral/em baixo -->
+    <section
+        id="banner-2"
+        class="row pt-sm-4">
+
+        <img 
+            class="d-sm-none p-0"
+            src="index/medias/Churrasqueira à esquerda - Mobile.png" 
+            alt="" />
+
+        <img 
+            class="d-none d-sm-flex p-0"
+            src="index/medias/Churrasqueira à esquerda - Desktop.png" 
+            alt="" />
+    
+
+        <p
+            class="col">
+
+            Seja 
+            
+            <strong 
+                class="text-uppercase">
+                
+                a sensação
+
+            </strong>
+                
+            do churrasco de São João com a 
+            
+            <strong
+                class="text-uppercase">
+                
+                Churrasqueira Elétrica Britânia Gourmet!
+
+            </strong>
+
+            <span
+                class="d-block">
+
+                Grelha em aço inox, 1200W.
+
+        </span>
+        
+        </p>
+
     </section>
 
-    <section id="third-banner">
-        <figure>
-            <img class="img-fluid" 
-            src="index/medias/Homem fazendo churrasco.png"
-            alt=""
-            title="">
-        </figure>
+    <!-- Divisão 3: Apenas uma ilustração de fundo de parede -->
+    <section 
+        id="banner-3"
+        class="row">
+        
+        <img 
+            class="col p-0"
+            src="index/medias/Homem fazendo churraco.png" 
+            alt="">
+
     </section>
 
-    <section id="fourth-banner">
-        <figure>
-            <img class="img-fluid" 
-            src="index/medias/Apartamento tablet mobile.png"
+    <!-- Divisão 4: Imagem - Demonstração da Churrasqueira em um ambiente planejado.  -->
+    <section
+        id="banner-4"
+        class="row">
+
+        <img 
+            class="p-0 d-sm-none"
+            src="index/medias/Footer - Churrasqueira à direita - Mobile.png"  
             alt=""
-            title="">
-        </figure>
-        <figcaption class="ms-3">
-            <h2>Ideal para apartamentos!</h2>
-            <p>Simples e compacta para quem quer <span>curtir o são joão</span> com amigos sem sair de casa!</p>
-        </figcaption>
+            title="" />
+
+        <img 
+            class="p-0 d-none d-sm-flex"
+            src="index/medias/Footer - Churrasqueira à direita - Desktop.png"  
+            alt=""
+            title="" />
+
     </section>
 
-    <section id="five-banner" class="d-flex align-items-center justify-content-center p-4">
-        <figure class="w-50">
-            <img class="img-fluid pe-5 pt-3"
-            src="index/medias/Churrasqueira desmontada.png"
-            alt=""
-            title="">
-        </figure>
-        <div class="d-flex flex-column align-items-center justify-content-center" >
-            <h3>Fácil de Limpar</h3>
-            <span>Perfeita para qualquer ocasião!</span>
-            <a class="btn btn-color-secondary-mrpds mt-3"
-            href=""
-            title="" >Comprar</a>
+    <!-- Divisão 5: Texto - Demonstração da Churrasqueira em um ambiente planejado. -->
+    <section
+        id="banner-5"
+        class="row">
+
+        <div
+            class="col-8">
+
+            <h2
+                class="text-uppercase">
+    
+                Ideal para apartamentos!
+    
+            </h2>
+    
+            <p>
+    
+                Simples e compacta para quem quer 
+                
+                <strong
+                    class="text-uppercase">
+    
+                    curtir o São João
+                
+                </strong>
+                
+                com amigos sem sair de casa!
+    
+            </p>
+
         </div>
+
     </section>
 
-    <div id="six-banner">
+    <!-- Divisão 6: Churrasqueira desmontada, para mostrar a facilidade da limpeza -->
+    <section
+        id="banner-6"
+        class="row d-flex flex-row justify-content-center align-items-center">
+
+        <img 
+            class="col-6 col-sm-4 order-2 order-sm-1"
+            src="index/medias/Churrasqueira por etapas.png"
+            alt="">
+
+        <div
+            class="col-12 col-sm-8 text-center order-1 order-sm-2 pt-5 pt-sm-0">
+
+            <h2
+                class="text-uppercase">
+
+                Fácil de Limpar
+
+            </h2>
+
+            <p>
+
+                Perfeita para qualquer ocasião!
+
+            </p>
+
+            <a 
+                class="btn btn-color-primary-mrpds "
+                href="https://www.gazin.com.br/produto/churrasqueira-eletrica-britania-gourmet-grelha-em-aco-inox-1200w-bcg1/5896"
+                title="Este botão leva você para a página oficial da Gazin.">
+
+                Comprar
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Divisão 7: Apenas um bloco de 70px -->
+    <div
+        id="banner-7"
+        class="row">
+
     </div>
-</main>
+
 <!-- scripts (/body) -->
 <script src="all-pages/codes/all-pages.js"></script>
 <script src="index/codes/index.js"></script>
